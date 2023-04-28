@@ -42,6 +42,7 @@ conda env create -f environment.yml
 Our datasets are based on [3d-pose-baseline](https://github.com/una-dinosauria/3d-pose-baseline) and [Video3D data](https://github.com/facebookresearch/VideoPose3D). We provide the GMM format data generated from the above datasets [here](https://www.dropbox.com/sh/54lwxf9zq4lfzss/AABmpOzg31PrhxzcxmFQt3cYa?dl=0). You should put the downloaded files into the `./data` directory.
 Note that we only change the format of the Video3D data to make them compatible with our GMM-based DiffPose training strategy, and the value of the 2D pose in our dataset is the same as them.
 
+## Frame-based experiments
 ### Evaluating pre-trained models for frame-based experiments
 
 We provide the pre-trained diffusion model (with CPN-dected 2D Pose as input) [here](https://www.dropbox.com/sh/jhwz3ypyxtyrlzv/AABivC5oiiMdgPePxekzu6vga?dl=0). To evaluate it, put it into the `./checkpoint` directory and run:
@@ -87,6 +88,9 @@ CUDA_VISIBLE_DEVICES=0 python main_diffpose_frame.py --train \
 --doc human36m_diffpose_uvxyz_gt --exp exp --ni \
 >exp/human36m_diffpose_uvxyz_gt.out 2>&1 &
 ```
+
+## Video-based experiments
+The code and pretrained model will be released at the end of May.
 
 ### Bibtex
 
