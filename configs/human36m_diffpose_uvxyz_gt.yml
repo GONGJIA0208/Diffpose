@@ -1,0 +1,49 @@
+data:
+    dataset: "human36m"
+    dataset_path: "./data/data_3d_h36m.npz"
+    dataset_path_train_2d: "./data/data_2d_h36m_gt_gmm.npz"
+    dataset_path_test_2d: "./data/data_2d_h36m_gt_gmm.npz"
+    num_joints: 17
+    num_workers: 32
+
+model:
+    hid_dim: 96
+    emd_dim: 96
+    coords_dim: [5,5]
+    num_layer: 5
+    n_head: 4
+    dropout: 0.25
+    n_pts: 17
+    ema_rate: 0.999
+    ema: True
+    resamp_with_conv: True
+    var_type: fixedsmall
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0001
+    beta_end: 0.001
+    num_diffusion_timesteps: 51
+
+training:
+    batch_size: 1024
+    n_epochs: 80
+    n_iters: 5000000
+    snapshot_freq: 5000
+    validation_freq: 2000
+    num_workers: 32
+
+testing:
+    test_times: 1
+    test_timesteps: 2
+    test_num_diffusion_timesteps: 12
+
+optim:
+    decay: 60
+    optimizer: "Adam"
+    lr: 0.00002
+    lr_gamma: 0.9
+    amsgrad: false
+    eps: 0.00000001
+    grad_clip: 1.0
+    
