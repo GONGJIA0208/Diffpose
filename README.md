@@ -11,7 +11,7 @@
 
 <sup>1</sup>Singapore University of Technology and Design, <sup>2</sup>New York University, <sup>3</sup>Monash University, <sup>4</sup>Lancaster University
 
-[[Paper]](https://arxiv.org/abs/2211.16940) | [[Project Page]](https://sutdcv.github.io/Diffpose/) | [[SUTD-VLG Lab]](https://github.com/sutdcv)
+[[Paper]](https://arxiv.org/abs/2211.16940) | [[Project Page]](https://GONGJIA0208.github.io/Diffpose/) | [[SUTD-VLG Lab]](https://github.com/sutdcv)
 
 ## DiffPose Model Architecture
 
