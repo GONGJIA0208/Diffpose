@@ -96,11 +96,12 @@ The code and pretrained model will be released at the end of May.
 
 If you find our work useful in your research, please consider citing:
 
-    @article{gong2022diffpose,
-    title={DiffPose: Toward More Reliable 3D Pose Estimation},
-    author={Gong, Jia and Foo, Lin Geng and Fan, Zhipeng and Ke, Qiuhong and Rahmani, Hossein and Liu, Jun},
-    journal={arXiv preprint arXiv:2211.16940},
-    year={2022}
+    @InProceedings{gong2023diffpose,
+        author    = {Gong, Jia and Foo, Lin Geng and Fan, Zhipeng and Ke, Qiuhong and Rahmani, Hossein and Liu, Jun},
+        title     = {DiffPose: Toward More Reliable 3D Pose Estimation},
+        booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+        month     = {June},
+        year      = {2023},
     }
 
 ## Acknowledgement
