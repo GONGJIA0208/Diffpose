@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0 python main_diffpose_frame.py --train \
 ```
 
 ## Video-based experiments
-The code and pretrained model will be released at the end of May.
+The code and pretrained model are coming soon.
 
 ### Bibtex
 
