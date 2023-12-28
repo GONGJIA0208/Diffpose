@@ -90,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0 python main_diffpose_frame.py --train \
 ```
 
 ## Video-based experiments
-The code and pretrained model are coming soon.
+Refer to https://github.com/GONGJIA0208/Diffpose_video
 
 ### Bibtex
 
